@@ -15,7 +15,7 @@ public class almacen {
     }
 
     public almacen(Integer id, String nombre) {
-        super();  // No es necesario si no heredas de otra clase
+        super();
         Id = id;
         this.nombre = nombre;
     }

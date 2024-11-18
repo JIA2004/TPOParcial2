@@ -1,4 +1,4 @@
-package com.ejercicio.ejercicio.model;
+package model;
 
 import org.springframework.data.neo4j.core.schema.Property;
 import org.springframework.data.neo4j.core.schema.Relationship;
