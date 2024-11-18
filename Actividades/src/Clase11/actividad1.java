@@ -1,10 +1,7 @@
-
-
 public class actividad1 {
 
-    static int N = 4; // tablero 4x4
-
-    // Verifica si se puede poner una reina en la posición (fila, col)
+    static int N = 4;
+    
     public static boolean esSeguro(int tablero[][], int fila, int col) {
         for (int i = 0; i < N; i++) {
             if (tablero[fila][i] == 1 || tablero[i][col] == 1) {

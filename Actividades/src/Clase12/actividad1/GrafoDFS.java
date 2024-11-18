@@ -1,4 +1,4 @@
-package actividad1;
+package clase11.actividad1;
 import java.util.LinkedList;
 
 public class GrafoDFS {
