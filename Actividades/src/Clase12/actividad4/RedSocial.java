@@ -1,4 +1,4 @@
-package clase12.actividad4;
+package actividad4;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
