@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="963d55ca-70fd-4454-a143-25f9d1d76785" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/TPO-Parcial2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/src/Clase11/actividad1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/src/Clase11/actividad2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/src/Clase11/actividad3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/src/Clase12/actividad1/GrafoDFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/src/Clase12/actividad2/GrafoBFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/src/Clase12/actividad3/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/src/Clase12/actividad3/Grafo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/src/Clase12/actividad3/GrafoBFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/src/Clase12/actividad3/GrafoDFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/src/Clase12/actividad3/almacen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/src/Clase12/actividad4/App1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/src/Clase12/actividad4/RedSocial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/src/Clase12/actividad4/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPO-Parcial2/src/main/java/com/ejercicio/ejercicio/model/MovieEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/TPO-Parcial2/src/main/java/com/ejercicio/ejercicio/model/MovieEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +62,6 @@
     </configuration>
     <configuration name="EjercicioApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="ejercicio" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ejercicio.ejercicio.EjercicioApplication" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +97,17 @@
       <updated>1731973212595</updated>
       <workItem from="1731973213838" duration="560000" />
       <workItem from="1731973797430" duration="276000" />
+      <workItem from="1731974103576" duration="2702000" />
     </task>
+    <task id="LOCAL-00001" summary="arreglo de bugs">
+      <option name="closed" value="true" />
+      <created>1731975547569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731975547569</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,5 +115,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Corrijo error" />
+    <MESSAGE value="arreglo de bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglo de bugs" />
   </component>
 </project>
