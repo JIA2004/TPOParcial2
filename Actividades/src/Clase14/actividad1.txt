@@ -1,0 +1,38 @@
+¿Cómo funciona el backtracking en este problema?
+En el problema el backtracking trata de colocar una reina en cada una de las filas del tablero.
+En cada fila se recorre cada columna fijandose si es posible colocar una reina en la columna de esa fila.
+En el caso de que sea seguro, coloca la reina y pasa a ña proxima fila.
+Por otro lado, cuando ocurra que ya no pueda colocar una reina, este retrocede, borra la reina colocada en la fila anterior y busca otras posiciones en esta fila. 
+Este proceso es sucesivo hasta colocar todas las reinas , siempre que sea posible.
+
+
+¿Qué pasa cuando el algoritmo encuentra una solución?
+Cuando encuentra una solucion (cuando coloco todas las reinas) se imprime el tablero con las reinas colocadas de cierte forma o con cierta configuracion,
+con la cual estas no se atacan.
+¿Qué ocurre cuando no puede colocar más reinas?
+En este caso, el proceso para y retrocede. Luego, como mencionamos anteriormente borra la reina colocada en la fila
+anterior y busca otras posiciones en esta fila. Este proceso en el que retrocede se repite siempre que no pueda colocar
+mas reinas (backtracking).
+
+
+¿Qué sucede en el código cuando el algoritmo "retrocede"?
+Aqui lo que hace es borrar la reina colocada en la fila anterior y busca otras posiciones en esta fila, esto sucesivamente
+siempre que no pueda colocar una reina.
+¿Cómo se visualiza en Python Tutor?
+En el python tutor, podemos ver claramente como funciona la tecnica de backtracking. Esto ya que va colocando reinas
+y cuando esto ya no es posible tan solo retocede, eliminando la fila anterior, realizando el proceso ya mencionado. Finalmente, una vez
+que se encuentra una solucion valida (se colocan todas las reinas), se muestra el tablero final con la solucion.
+
+
+¿Qué modificaciones harías para aumentar N a 8?
+Para cambiar el tamaño del tablero bastaria con private static final int N = 4; a private static final int N = 8; ya que es este fragmento
+del codigo con el que se define el tamaño del tablero.
+¿Cómo crees que cambiaría el tiempo de ejecución?
+Probablemente el tiempo de ejecucuin aumente ya que con un tamaño como 8 de tablero, hay muchas mas posibilidades o combinaciones posibles
+Basicamente, el tiempo de ejecucion creceria conforme al crecimiento del tablero, ya que significaria que se deberian probar mas posibilidades
+y la tecnica tambien haria mas retrocesos.
+
+
+¿Por qué el método isSafe es crucial en este algoritmo?
+Es importante ya que sin el, no podriamos verificar cuando una reina puede ser colocada en una posicion o no. Este metodo nos permite saber 
+cuando se puede colocar en una cierta posicion en la que esta no ataque a otras.
